@@ -47,7 +47,7 @@ const ignoreAction = () => {
     return true;
   }
   // フォーカスが絵文字ピッカーの検索フォーム
-  if (document.getElementsByClassName("emoji-picker__search")[0]) {
+  if (document.activeElement === document.getElementsByClassName("emoji-picker__search")[0]) {
     return true;
   }
   return false;
