@@ -65,7 +65,10 @@ const applyStrageState = (data) => {
   // 手のひらモードスイッチ
   elm.handSwitchElm.checked = !!data[storage.hand.active];
   // 手のひらラジオボタン デフォルト/カスタム
-  const handRadio_default = !!data[storage.hand.useDefault];
+  const storageHandDefault = data[storage.hand.useDefault];
+
+  const handRadio_default =
+    typeof storageHandDefault === "undefined" || storageHandDefault === true ? true : false;
   elm.handRadioH.checked = handRadio_default;
   elm.handRadioAny.checked = !handRadio_default;
   // ショートカットキーがデフォルト以外ならstorage内codeを表示
