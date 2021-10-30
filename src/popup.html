@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>My Strap</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <img src="icon/icon48.png" />
+      <p>My Strap設定</p>
+    </header>
+    <main>
+      <h2>使用したい機能をONにして下さい</h2>
+      <article class="config-container">
+        <section class="activate">
+          <div class="toggle-switch">
+            <input type="checkbox" id="timer" class="toggle-input" />
+            <label for="timer" class="config-checkbox toggle-label"></label>
+            <label for="timer">カウントダウンタイマー</label>
+          </div>
+        </section>
+        <section class="activate">
+          <div class="toggle-switch">
+            <input type="checkbox" id="emoji-button" class="toggle-input" />
+            <label for="emoji-button" class="config-checkbox toggle-label"></label>
+            <label for="emoji-button">絵文字ボタン</label>
+          </div>
+        </section>
+        <section class="activate">
+          <div class="toggle-switch">
+            <input type="checkbox" id="shortcut-hand" class="toggle-input" />
+            <label for="shortcut-hand" class="config-checkbox toggle-label"></label>
+            <label for="shortcut-hand">手のひらモードショートカットキー</label>
+          </div>
+          <section id="shortcut-hand-setting" class="shortcut-hand-setting">
+            <ul>
+              <li>
+                <div class="radio-group">
+                  <input id="hand-h" type="radio" name="hand-select" />
+                  <label for="hand-h">hキー（code="KeyH"）※デフォルト</label>
+                </div>
+              </li>
+              <li>
+                <div class="radio-group">
+                  <input id="hand-any" type="radio" name="hand-select" />
+                  <label for="hand-any">任意のキーを手動設定</label>
+                  <input type="text" id="shortcut-code" />
+                </div>
+                <div class="current-press-code">
+                  <p>現在押したキーのcode</p>
+                  <input type="text" id="input-press-code" readonly="readonly" /><input
+                    type="button"
+                    id="add-code"
+                    value="反映"
+                  />
+                </div>
+              </li>
+            </ul>
+          </section>
+        </section>
+        <section class="activate">
+          <div class="toggle-switch">
+            <input type="checkbox" id="join-space-arrow-button" class="toggle-input" />
+            <label for="join-space-arrow-button" class="config-checkbox toggle-label"></label>
+            <label for="join-space-arrow-button">参加スペース 折りたたみボタン</label>
+          </div>
+        </section>
+      </article>
+      <nav>
+        <input id="save-button" type="button" value="保存してStrapに適用" />
+      </nav>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

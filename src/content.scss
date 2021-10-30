@@ -1,0 +1,67 @@
+#mystarp-timer {
+  display: flex;
+  min-width: 50px;
+  min-height: 1em;
+  margin: 0 2px 0;
+  padding: 2px 5px;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #ffffff;
+  border: solid 1px #c7c7c7;
+  border-radius: 4px;
+  font-family: monospace, sans-serif;
+}
+
+// 点滅アニメーション
+#mystarp-timer.blinkanime {
+  animation: blinkanime 1s ease 0s infinite;
+}
+
+@keyframes blinkanime {
+  0% {
+    background: #ffffff;
+  }
+  50% {
+    background: rgba(255, 0, 0, 0.4);
+  }
+  100% {
+    background: #ffffff;
+  }
+}
+
+// 絵文字ボタンコンテナ
+#mystarp-emoji-button__wrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #f6f8fc;
+}
+
+// 絵文字ピッカーモーダル
+.emoji-picker__wrapper {
+  top: 10px !important;
+}
+
+// スペース画面で「参加スペース」label内の矢印ボタン
+#mystarp-joinspace-arrowbtn {
+  display: inline-block;
+  margin: 0 6px 0 0;
+  font-size: 1rem;
+  cursor: pointer;
+  text-shadow: 1px -2px 5px #c0c0c0;
+  transform: rotate(90deg);
+}
+
+#mystarp-joinspace-arrowbtn.mystarp--close {
+  text-shadow: 1px 1px 5px #c0c0c0;
+  transform: none;
+}
+
+#mystarp-joinspace-label {
+  text-shadow: 0px 0px 1px #cccccc;
+  cursor: pointer;
+}
+
+#mystarp-joinspace-list.mystarp--close {
+  display: none;
+}
