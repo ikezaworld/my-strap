@@ -1,5 +1,7 @@
 # dependencies
-/node_modules
+node_modules/
+coverage/
 
 # misc
+my-strap-for-chrome-extension/
 .DS_Store
