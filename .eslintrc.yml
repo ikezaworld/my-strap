@@ -1,0 +1,13 @@
+parserOptions:
+  sourceType: module
+env:
+  browser: true
+  es2020: true
+  jest: true
+  webextensions: true
+extends: 
+  - eslint:recommended
+  - prettier
+ignorePatterns: 
+  - "*/coverage"
+  - "*/public"
