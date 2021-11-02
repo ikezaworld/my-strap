@@ -1,6 +1,6 @@
 <img src="./docs/img/icon128.png" width="100px">
 
-# my-strap
+# My Strap
 
 This is a Chrome extension for using the online whiteboard "[Strap](https://product.strap.app/)" conveniently.
 
