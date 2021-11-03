@@ -53,7 +53,8 @@ This is a Chrome extension for using the online whiteboard "[Strap](https://prod
 3. 10秒以下になると赤く点滅して残り時間わずかの警告が表示される。
 4. カウントダウン中でもセレクトボックスから任意の時間を選択することで時間変更が可能。
 
-<img src="./docs/img/screen_timer.png" width="400px">
+<img src="./docs/img/desc_timer_mv.gif" width="360px">
+
 
 ### 手のひらモードショートカット設定
 
@@ -77,7 +78,7 @@ This is a Chrome extension for using the online whiteboard "[Strap](https://prod
 3. Strapアイコンとは異なりただの文字扱いなので、バウンディングボックスでの拡大縮小や輪郭のみ表示はされない。
 4. 図形やテキストモードにしてペーストして使用する。
 
-<img src="./docs/img/screen_emoji.png" width="300px">
+<img src="./docs/img/desc_emoji_mv.gif" width="360px">
 
 ### 参加スペースメニューの折りたたみボタン
 
@@ -85,4 +86,4 @@ This is a Chrome extension for using the online whiteboard "[Strap](https://prod
 2. ここをクリックすることで参加スペース一覧の表示非表示がトグル式に切り替わる。
 3. 操作結果はChrome機能拡張内部で記憶されるので、他スペースやボード遷移、ブラウザ更新しても同じ状態をキープする。（※ページロード完了から表示切り替えまで数秒のタイムラグあり）
 
-<img src="./docs/img/screen_joinspace.png" width="300px">
+<img src="./docs/img/desc_joinspace_mv.gif" width="360px">
