@@ -8,7 +8,9 @@ This is a Chrome extension for using the online whiteboard "[Strap](https://prod
 
 オンラインホワイトボード [Strap](https://product.strap.app/) がより使いやすくなるChrome 機能拡張です。  
 日々MTGや情報整理・構造化、コミュニケーションをStrapで行う上で、こうだったらもっと便利になりそうというアイデアを自分用に開発しています。  
-（この機能拡張はStrap非公式のツールです。個人が趣味で開発したことをご理解の上ご利用ください）  
+
+※ この機能拡張はStrap非公式のツールです。個人が趣味で開発したことをご理解の上ご利用ください  
+※ 今後のStrapの仕様変更で挙動が全く変わる可能性があますが、このChrome機能拡張では動作保証されません。あくまで自己責任にてご利用ください
 
 
 ## Install
